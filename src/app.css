@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background: url('./assets/cloudy.jpg');
+  background-size: cover;
+}
+#app{
+  min-height: 100vh;
+  display: flex;
+  padding-top: 20vh;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.45);
+}
