@@ -10,7 +10,7 @@
 
 
 body{
-  background: url('./assets/cloudy.jpg');
+  background: url('/assets/cloudy.jpg');
   background-size: cover;
 }
 #app{
