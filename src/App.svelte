@@ -1,7 +1,8 @@
-<!-- App.svelte -->
+
 <script lang="ts">
   import Card from "./Card.svelte";
   import ForecastCard from "./ForecastCard.svelte";
+  import searchLogo from './assets/search.svg'
 
   let city = "";
 
@@ -78,7 +79,7 @@
     />
 
     <button class="px-1" on:click={handleSearch} disabled={city.length == 0}>
-      <img class="w-8" src="src\assets\search.svg" alt="" />
+      <img class="w-8" src={searchLogo} alt="" />
     </button>
   </div>
   {#if isLoading}

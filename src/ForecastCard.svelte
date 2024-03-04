@@ -1,12 +1,28 @@
 <script lang="ts">
   import date from "date-and-time";
   import { isSameDay } from "./util";
-  export let data: number, dt: Date, weather: String;
+  import cloudLogo from './assets/Clouds.svg'
+  import thunderStromLogo from './assets/thunderstrom.svg'
+  import sunnyLogo from './assets/sunny.svg'
+
+  export let data: number, dt: string, weather: String;
+
   const time = date.format(new Date(dt), 'hh:mm A')
   const now = date.format(new Date(), 'YYYY-MM-DD HH:mm:ss');
 const isToday = isSameDay(now , dt)
+let src = ''
 
-const src = `src/assets/${weather}.svg`
+if (weather === 'Clouds') {
+  src = cloudLogo
+  
+} else if(weather === 'thunderstrom') {
+src = thunderStromLogo
+  
+}else{
+  src = sunnyLogo
+}
+
+
 
 </script>
 
