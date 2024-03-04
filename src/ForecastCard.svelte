@@ -1,8 +1,7 @@
-<script>
+<script lang="ts">
   import date from "date-and-time";
   import { isSameDay } from "./util";
-  export let data, dt, weather;
-  console.log(weather)
+  export let data: number, dt: Date, weather: String;
   const time = date.format(new Date(dt), 'hh:mm A')
   const now = date.format(new Date(), 'YYYY-MM-DD HH:mm:ss');
 const isToday = isSameDay(now , dt)

@@ -1,6 +1,5 @@
-<script>
-   export let data, type
-    console.log(data, type)
+<script lang="ts">
+   export let data: number, type: String;
 </script>
 <div class="text-2xl w-40 h-40 px-2 bg-white/0 shadow-lg rounded-lg backdrop-blur">
     {#if type === 'temperature'}
