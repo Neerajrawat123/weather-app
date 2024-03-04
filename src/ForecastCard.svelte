@@ -1,9 +1,9 @@
 <script lang="ts">
   import date from "date-and-time";
   import { isSameDay } from "./util";
-  import cloudLogo from './assets/Clouds.svg'
-  import thunderStromLogo from './assets/thunderstrom.svg'
-  import sunnyLogo from './assets/sunny.svg'
+  import cloudLogo from '/assets/Clouds.svg'
+  import thunderStromLogo from '/assets/temperature.svg'
+  import sunnyLogo from '/assets/sunny.svg'
 
   export let data: number, dt: string, weather: String;
 

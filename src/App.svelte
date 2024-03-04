@@ -2,7 +2,7 @@
 <script lang="ts">
   import Card from "./Card.svelte";
   import ForecastCard from "./ForecastCard.svelte";
-  import searchLogo from './assets/search.svg'
+  import searchLogo from "/assets/search.svg"
 
   let city = "";
 

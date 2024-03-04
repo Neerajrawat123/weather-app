@@ -1,8 +1,8 @@
 <script lang="ts">
-  import thermoMeterLogo from './assets/temperature.svg'
-  import humidityLogo from './assets/humidity.svg'
-  import windLogo from './assets/wind.svg'
-  import cloudsLogo from './assets/Clouds.svg'
+  import thermoMeterLogo from '/assets/temperature.svg'
+  import humidityLogo from '/assets/humidity.svg'
+  import windLogo from '/assets/wind.svg'
+  import cloudsLogo from '/assets/Clouds.svg'
 
    export let data: number, type: String;
 </script>
